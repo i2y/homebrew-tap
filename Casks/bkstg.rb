@@ -8,4 +8,9 @@ cask "bkstg" do
   homepage "https://github.com/i2y/bkstg"
 
   app "bkstg.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/bkstg.app"]
+  end
 end

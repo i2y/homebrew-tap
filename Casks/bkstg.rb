@@ -1,6 +1,6 @@
 cask "bkstg" do
-  version "0.5.11"
-  sha256 "d32d7cf8102bf8e7268233eadc9614372a70b3793650de458dab8730cd9f3534"
+  version "0.5.12"
+  sha256 "1f9c70b2db32dfef9f6c75ac4e3a865b5a1cf5f48b0b8d61430a6bfb7335e120"
 
   url "https://github.com/i2y/bkstg/releases/download/v#{version}/bkstg.dmg"
   name "bkstg"

@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/rulec for v0.21.0; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/rulec for v0.21.1; the next release replaces it.
 class Rulec < Formula
   desc "Little language for business rules that proves each rule before it compiles"
   homepage "https://i2y.github.io/rulec/"
@@ -6,23 +6,23 @@ class Rulec < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/rulec/releases/download/v0.21.0/rulec-v0.21.0-aarch64-apple-darwin.tar.gz"
-      sha256 "032f1cf49d11c610f6fce57b69a263eca59ce45130dc1fc5b1cf78ed0b93c4d8"
+      url "https://github.com/i2y/rulec/releases/download/v0.21.1/rulec-v0.21.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b2edc50dc3cba9c3985475387303aad473244856fd4210307e261035ed33ba56"
     end
     on_intel do
-      url "https://github.com/i2y/rulec/releases/download/v0.21.0/rulec-v0.21.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e2a2fdd094aca383598f3f1ebbcb12c8e9a537be78d13a991a333182d81bede4"
+      url "https://github.com/i2y/rulec/releases/download/v0.21.1/rulec-v0.21.1-x86_64-apple-darwin.tar.gz"
+      sha256 "2b0318dd40af094cfd5777469cb9b18112e818fa6ed2867a7c48ef379e4d3d14"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/rulec/releases/download/v0.21.0/rulec-v0.21.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ecd3dac16e001ac4ecf310d9b332b21b9ec77bccbe3d97902304ad68cd73277b"
+      url "https://github.com/i2y/rulec/releases/download/v0.21.1/rulec-v0.21.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6eda635e76f57c930b6c64ffa6870c015d919e4eede01e092c0d26e7ce93e8bc"
     end
     on_intel do
-      url "https://github.com/i2y/rulec/releases/download/v0.21.0/rulec-v0.21.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fcb5e401cc9ae99ac612f4883135bbad8137a2343a7cbb8d3f7d76a62e648d02"
+      url "https://github.com/i2y/rulec/releases/download/v0.21.1/rulec-v0.21.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a6cb813e713d9a65be657f6b5f16fbe12843c2f2544b29a76a26342b9b247edf"
     end
   end
 

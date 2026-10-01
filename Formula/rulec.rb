@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/rulec for v0.22.0; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/rulec for v0.22.1; the next release replaces it.
 class Rulec < Formula
   desc "Little language for business rules that proves each rule before it compiles"
   homepage "https://i2y.github.io/rulec/"
@@ -6,23 +6,23 @@ class Rulec < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/rulec/releases/download/v0.22.0/rulec-v0.22.0-aarch64-apple-darwin.tar.gz"
-      sha256 "84ab55c7c8bdfa8ded3e27b5169685b95d0ca27b65fa0ccccba3359a7c4b4f3a"
+      url "https://github.com/i2y/rulec/releases/download/v0.22.1/rulec-v0.22.1-aarch64-apple-darwin.tar.gz"
+      sha256 "cd9147241d7196b0338355786cd5271ce94bd8cdb425d615920b6aae7898b232"
     end
     on_intel do
-      url "https://github.com/i2y/rulec/releases/download/v0.22.0/rulec-v0.22.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5981a583ec090bff024852594623db96cf9a2994eadaa0789a82a9f9caf93e76"
+      url "https://github.com/i2y/rulec/releases/download/v0.22.1/rulec-v0.22.1-x86_64-apple-darwin.tar.gz"
+      sha256 "be274130d6fbed4b7fba15e59e6411854aaa5434e1b28fe0830882d94f2657b8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/rulec/releases/download/v0.22.0/rulec-v0.22.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e61425d89eb7724957c93f0bfa04d8013fe45327386e5eb769a929e39f91515b"
+      url "https://github.com/i2y/rulec/releases/download/v0.22.1/rulec-v0.22.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d1e9b8a9faf57fa038d62244c591e0d639cb03d01dfa7d9bc28353f226503a5c"
     end
     on_intel do
-      url "https://github.com/i2y/rulec/releases/download/v0.22.0/rulec-v0.22.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "cc49d5a44f84d94ecd3bdd8e1562cd0dce4270b47013365334c29dd4a85f3f56"
+      url "https://github.com/i2y/rulec/releases/download/v0.22.1/rulec-v0.22.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "13937feb5dd056877f74fd5b2db64fbca0427335741ff15fffadb869238b8553"
     end
   end
 

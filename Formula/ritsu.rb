@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.29.2; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.29.3; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.2/ritsu-v0.29.2-aarch64-apple-darwin.tar.gz"
-      sha256 "1d2ba79c093ab7989377ef750e4619f6e6022528b9fa7b728fca6570ff1b5558"
+      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-aarch64-apple-darwin.tar.gz"
+      sha256 "7695b57e5c444a33d7a1a8c43c90ccff66fb46a30b4c8a8d77d3adf8b1cc7775"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.2/ritsu-v0.29.2-x86_64-apple-darwin.tar.gz"
-      sha256 "df0cbb8a2f70efbf95a2446890a691a608e99243934b1f60d4b5343ce95930c7"
+      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-x86_64-apple-darwin.tar.gz"
+      sha256 "917ce8125828203e2050737644e5b52d41b46c61f0bcda77822bae4d3d026822"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.2/ritsu-v0.29.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f4f755b61849a9d51786deb93b74f9a495d3b3fbabe6cc8ceb67254a5d623751"
+      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "daaeb27f86691770841587ac4af9489a976b78d006974b6f7ae26bef4555d3d9"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.2/ritsu-v0.29.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "44f81df1e7ddf96f88ab52d24f415d58b32aea7c32f74597fb679aff135f696c"
+      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "265dd94b8a73ddf4dccbe84f7c121018a044bca4efca3a539b820b8e0218d200"
     end
   end
 

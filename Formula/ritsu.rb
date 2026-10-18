@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.29.3; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.30.0; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-aarch64-apple-darwin.tar.gz"
-      sha256 "7695b57e5c444a33d7a1a8c43c90ccff66fb46a30b4c8a8d77d3adf8b1cc7775"
+      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4267eb32ccbe1edc5e685599e03e491139bc8989b037a1b01b90c0eb93c3b55f"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-x86_64-apple-darwin.tar.gz"
-      sha256 "917ce8125828203e2050737644e5b52d41b46c61f0bcda77822bae4d3d026822"
+      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-x86_64-apple-darwin.tar.gz"
+      sha256 "acec46d9e5b47a764068c511ddbc91fccb57b0037727088bb7c82218fe87ab72"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "daaeb27f86691770841587ac4af9489a976b78d006974b6f7ae26bef4555d3d9"
+      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6f981ddcab2aa7dc55c4e34980aed21045bff9e8d687ae26bab811d0686fbde4"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.29.3/ritsu-v0.29.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "265dd94b8a73ddf4dccbe84f7c121018a044bca4efca3a539b820b8e0218d200"
+      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "05b4278c6ff994f666d155c9f69f96a72e7e59f6f2d13fcc864847f0480bfd63"
     end
   end
 

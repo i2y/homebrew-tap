@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.30.0; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.31.0; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4267eb32ccbe1edc5e685599e03e491139bc8989b037a1b01b90c0eb93c3b55f"
+      url "https://github.com/i2y/ritsu/releases/download/v0.31.0/ritsu-v0.31.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5516300ff322bbf1d83fef32a80282d3893914f4bdf31a5b78c633101e816b77"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-x86_64-apple-darwin.tar.gz"
-      sha256 "acec46d9e5b47a764068c511ddbc91fccb57b0037727088bb7c82218fe87ab72"
+      url "https://github.com/i2y/ritsu/releases/download/v0.31.0/ritsu-v0.31.0-x86_64-apple-darwin.tar.gz"
+      sha256 "49a42fb97706d9100d66cb6485361ee86ee03cc35d25ff62afae5afcfe7fe43c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6f981ddcab2aa7dc55c4e34980aed21045bff9e8d687ae26bab811d0686fbde4"
+      url "https://github.com/i2y/ritsu/releases/download/v0.31.0/ritsu-v0.31.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "33dffac1615f25fb1f1ba6c92940100c1666d5e8ea835cf4f3d175361cc080c3"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.30.0/ritsu-v0.30.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "05b4278c6ff994f666d155c9f69f96a72e7e59f6f2d13fcc864847f0480bfd63"
+      url "https://github.com/i2y/ritsu/releases/download/v0.31.0/ritsu-v0.31.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7a6bc100d51270cfe9ee507b4246d7bcabcb98aa90dab7e5383e088ddc72d1fd"
     end
   end
 

@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.33.0; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.34.0; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.33.0/ritsu-v0.33.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cfe924cc92b3e066ee3855dcbd2674d79fa0af205754ba9ba38cb47a9769a84f"
+      url "https://github.com/i2y/ritsu/releases/download/v0.34.0/ritsu-v0.34.0-aarch64-apple-darwin.tar.gz"
+      sha256 "98f98be291fdafb7b16149a86c0b9d61e0b562cbbc79b9e39c48eebf8453eae2"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.33.0/ritsu-v0.33.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e7d0170f02dacacea94eeab70d5e3fed06eaee31c91a79b27da3a768c17d01c0"
+      url "https://github.com/i2y/ritsu/releases/download/v0.34.0/ritsu-v0.34.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e2cca77542bcf0859e821479dc7ed7bbfef2d3544e0654bfa3067438e15f0cb9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.33.0/ritsu-v0.33.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "33d59fa7a16c4586e1e94390bd0e7622d1999c931bb8e08c42e68bd2bfc50de0"
+      url "https://github.com/i2y/ritsu/releases/download/v0.34.0/ritsu-v0.34.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5985602436400014f00599eac6b826f34fd537451fbe77176b2fa92bb3a58aa9"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.33.0/ritsu-v0.33.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e6cff69fdb7e5d32ebc12b644dcb0c94fccb83f73ad9ce6b26e20b33f1bd2f4a"
+      url "https://github.com/i2y/ritsu/releases/download/v0.34.0/ritsu-v0.34.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5d1056c94438a3a7c67eb07d9893b7c2dfa6d11bc03984946983d3384be38959"
     end
   end
 

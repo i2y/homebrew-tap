@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.34.1; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.35.0; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.34.1/ritsu-v0.34.1-aarch64-apple-darwin.tar.gz"
-      sha256 "8f4ec4bb831a2aa17953bb7ac5b2b118249d8b68652c90f942678ade99ae32a9"
+      url "https://github.com/i2y/ritsu/releases/download/v0.35.0/ritsu-v0.35.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5dfaec4a81d8eb492ab7ee1d6ab03a9d881a09a2385df05ec22243f51ca8fe44"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.34.1/ritsu-v0.34.1-x86_64-apple-darwin.tar.gz"
-      sha256 "7947d4125323dfc8b9f86b776186f21d2b2ddc7d2cec741f41a6f52020954c6f"
+      url "https://github.com/i2y/ritsu/releases/download/v0.35.0/ritsu-v0.35.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6ffb9ca3f7226f6b58ab51c958a780ba4f87e93f3b33204e343ee167ae889e00"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.34.1/ritsu-v0.34.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "464a2be12331b6155aaa0a0bf29f9b5e111424505d2653d94773994880f9972f"
+      url "https://github.com/i2y/ritsu/releases/download/v0.35.0/ritsu-v0.35.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c9f54be50978769c9559d8489acbb2a06a1b8a97f185c1d3ee1b9a189ce365c4"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.34.1/ritsu-v0.34.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "75a3e89c6f78882c2a06c3c165d711a96351e9be934097e01d346986d3c0c9da"
+      url "https://github.com/i2y/ritsu/releases/download/v0.35.0/ritsu-v0.35.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8b68eebcbdba4548ccaaab31b13ccda4153d1ccb646ca4ea6d00202d5f2a201c"
     end
   end
 

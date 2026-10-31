@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.39.0; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.40.0; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.39.0/ritsu-v0.39.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b5c2696d233dfb8c484b67e8522fa3059ebcfbc73a4fafb23b769c3f990a2fe7"
+      url "https://github.com/i2y/ritsu/releases/download/v0.40.0/ritsu-v0.40.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f5c1a2d99b55325feab5012c952d0367ebd068a0e98a409a16aeeb900dc5e0e3"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.39.0/ritsu-v0.39.0-x86_64-apple-darwin.tar.gz"
-      sha256 "bcd09d85fdb57acda7606c91cc99f3c28773f2c20b2d58713edbad630398c30d"
+      url "https://github.com/i2y/ritsu/releases/download/v0.40.0/ritsu-v0.40.0-x86_64-apple-darwin.tar.gz"
+      sha256 "10c86e5477f5b552616355898444c2cd2e1ba5786f342b391ccd9e60ba0e364d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.39.0/ritsu-v0.39.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9344e041afca5d68b173af6d4752d8b9b6a1974eec56e7ab845ffb30d6c71837"
+      url "https://github.com/i2y/ritsu/releases/download/v0.40.0/ritsu-v0.40.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c73fe5370cebb779a0d709e8130a83890aa01ae1f881b846e33b0b052374d39f"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.39.0/ritsu-v0.39.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5baa87017ed2d1a9075b1dd436203d1c400757f1867b9e997bc9c63d9ffb7d9d"
+      url "https://github.com/i2y/ritsu/releases/download/v0.40.0/ritsu-v0.40.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "16e391c2cd3b5ad2560eb9b38ad51b70ceca8330930113930fe582e13c039646"
     end
   end
 

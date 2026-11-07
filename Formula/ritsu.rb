@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.45.0; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.46.0; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.45.0/ritsu-v0.45.0-aarch64-apple-darwin.tar.gz"
-      sha256 "99e5f93328c4b687c40fa7b8c1a064989a5887fb73908d42a7362d6943247c94"
+      url "https://github.com/i2y/ritsu/releases/download/v0.46.0/ritsu-v0.46.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9b4e1e9da533a8ecbc47d48a9d2e04418b9e0bb96f2dfc89c20b5ccae93af4dc"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.45.0/ritsu-v0.45.0-x86_64-apple-darwin.tar.gz"
-      sha256 "78ac6a5ac32ec194a013d88526f95267fa27828470b9e39134ef488929ad40f0"
+      url "https://github.com/i2y/ritsu/releases/download/v0.46.0/ritsu-v0.46.0-x86_64-apple-darwin.tar.gz"
+      sha256 "85e5231f22c1b6fbb72b3b127ed85db5fc0ae32665c4ad6ddbe72120469a6000"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.45.0/ritsu-v0.45.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "26f6a6ab40ab6d47000bc52636c3565d93e2dfb90f2a68c24a1c208a9302aebd"
+      url "https://github.com/i2y/ritsu/releases/download/v0.46.0/ritsu-v0.46.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3b7ed9ed8ee6573a5b939133ff97e5bed40e3faff3ac370ee98e5837424e3f39"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.45.0/ritsu-v0.45.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "45ffeb7b2f983093e2700d2013b5fdfd14dedc414df24eb5152db438d465235f"
+      url "https://github.com/i2y/ritsu/releases/download/v0.46.0/ritsu-v0.46.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ea85a9e44d6fe1380f6d4015b1b9aa6b99975e5b42ddb206e191535c5c4063a1"
     end
   end
 

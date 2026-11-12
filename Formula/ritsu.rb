@@ -1,4 +1,4 @@
-# Written by packaging/homebrew.sh in i2y/ritsu for v0.54.0; the next release replaces it.
+# Written by packaging/homebrew.sh in i2y/ritsu for v0.55.0; the next release replaces it.
 class Ritsu < Formula
   desc "Small languages for a system's rules, checked so every input gets one answer"
   homepage "https://github.com/i2y/ritsu"
@@ -12,23 +12,23 @@ class Ritsu < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.54.0/ritsu-v0.54.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c6487ce1e3647d082628e90c12d9ef9a71fa306c33db40d869d17f3515524e8e"
+      url "https://github.com/i2y/ritsu/releases/download/v0.55.0/ritsu-v0.55.0-aarch64-apple-darwin.tar.gz"
+      sha256 "349557d6afd97a70829d992dbc3ebb8dc8cbcacade3dcbce51767b67242daf41"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.54.0/ritsu-v0.54.0-x86_64-apple-darwin.tar.gz"
-      sha256 "eb76e0685bfd9bb83d8c9e698617e43cfa4bd8b565f30e1372d1a7c44a4760d1"
+      url "https://github.com/i2y/ritsu/releases/download/v0.55.0/ritsu-v0.55.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5b1b927ab479e7cad5029e7a34469570b9bf7b1cd78f22187e9307dc22b84598"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i2y/ritsu/releases/download/v0.54.0/ritsu-v0.54.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ac8b68b80e4c3300df9e527d47addea4885aa2c8b37889ebc6e5d39a71dab585"
+      url "https://github.com/i2y/ritsu/releases/download/v0.55.0/ritsu-v0.55.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "856387e2292731f707b7faa8654be589dd80b36869829b5b2ca6b717b3af1a09"
     end
     on_intel do
-      url "https://github.com/i2y/ritsu/releases/download/v0.54.0/ritsu-v0.54.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "60e6864af0491f8c0467476b523870f4b9f6e02d1dd684de5118ba9fbb858fe9"
+      url "https://github.com/i2y/ritsu/releases/download/v0.55.0/ritsu-v0.55.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0c0e0f63ee9bbbd0a1f304cd2c8f0be340795407ae09b9d6746bb98fdea812d6"
     end
   end
 
